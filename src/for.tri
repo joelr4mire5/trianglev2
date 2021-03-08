@@ -1,0 +1,4 @@
+for x
+from 4
+to 2
+do x := 2;

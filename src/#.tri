@@ -1,0 +1,6 @@
+let
+	var x : Integer;
+	var y : Integer;
+	var k : Integer
+in
+x := y # k;

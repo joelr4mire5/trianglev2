@@ -1,0 +1,2 @@
+put x
+bigger (x = 5 : y = 1);
