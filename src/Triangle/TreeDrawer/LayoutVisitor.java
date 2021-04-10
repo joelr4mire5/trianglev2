@@ -66,7 +66,7 @@ public class LayoutVisitor implements Visitor {
     return layoutBinary("RunCom.", ast.C, ast.I);
   }
 
-  public Object visitPutCommand(PutCommand ast, Object obj) {
+  public Object visitChooseCommand(ChooseCommand ast, Object obj) {
     return layoutTernary("PutCom.", ast.V, ast.E1, ast.E2);
   }
 

@@ -291,7 +291,7 @@ public class Parser {
       }
       break;
 
-    case Token.PUT:
+    case Token.CHOOSE:
       {
         acceptIt();
         Vname vAST = parseVname();
@@ -302,7 +302,7 @@ public class Parser {
         Expression e2AST = parseExpression();
         accept(Token.RPAREN);
         finish(commandPos);
-        commandAST = new PutCommand(vAST, e1AST, e2AST, commandPos);
+        commandAST = new ChooseCommand(vAST, e1AST, e2AST, commandPos);
       }
       break;
 

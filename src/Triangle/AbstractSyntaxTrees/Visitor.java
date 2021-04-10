@@ -26,7 +26,7 @@ public interface Visitor {
   public abstract Object visitWhileCommand(WhileCommand ast, Object o);
   public abstract Object visitRepeatCommand(RepeatCommand ast, Object o);
   public abstract Object visitRunCommand(RunCommand ast, Object o);
-  public abstract Object visitPutCommand(PutCommand ast, Object o);
+  public abstract Object visitChooseCommand(ChooseCommand ast, Object o);
   public abstract Object visitForCommand(ForCommand ast, Object o);
 
   // Expressions
