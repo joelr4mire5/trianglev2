@@ -1,2 +1,5 @@
+let
+	var x: Integer
+in
 run 16
 times x := 2;

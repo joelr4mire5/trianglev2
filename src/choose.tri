@@ -2,7 +2,5 @@ let
 	var x: Integer;
 	var y: Integer
 in
-for x
-from 4
-to 2
-do y := 2;
+choose x
+bigger (x = 5 : y = 1);
